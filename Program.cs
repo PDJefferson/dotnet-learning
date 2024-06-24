@@ -1,3 +1,6 @@
+// to let every file know about files in a folder you use the namespace global::foldername
+global using dotnet_learning.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container via dependency injection.
